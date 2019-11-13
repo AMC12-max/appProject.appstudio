@@ -1,5 +1,5 @@
-let teamPlayedAgainst = teamPlayedAgainst.selection
-let teamPlayedAs =teamPlayedAs.selection
+let teamPlayedAgainst = []
+let teamPlayedAs = []
 
   
 statsAndGraphs.onshow=function(){

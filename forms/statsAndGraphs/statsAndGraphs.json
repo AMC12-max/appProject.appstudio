@@ -43,7 +43,7 @@
         "forms", 
         "statsAndGraphs", 
         "Elements", 
-        "Input1.json"
+        "iptFgPercentage.json"
       ]
     }, 
     {
@@ -52,7 +52,52 @@
         "forms", 
         "statsAndGraphs", 
         "Elements", 
-        "Input2.json"
+        "iptAssists.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "statsAndGraphs", 
+        "Elements", 
+        "iptsRebounds.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "statsAndGraphs", 
+        "Elements", 
+        "iptYourScore.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "statsAndGraphs", 
+        "Elements", 
+        "iptOpponentScore.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "statsAndGraphs", 
+        "Elements", 
+        "iptTurnoverMargin.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "statsAndGraphs", 
+        "Elements", 
+        "iptTOP.json"
       ]
     }
   ], 
