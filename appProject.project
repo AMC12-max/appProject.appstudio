@@ -26,8 +26,8 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "Form2", 
-            "Form2.json"
+            "forumPost", 
+            "forumPost.json"
           ]
         }
       ], 
@@ -43,7 +43,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Form2", 
+      "firstform": "forumPost", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 

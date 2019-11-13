@@ -2,21 +2,58 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "grey", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
-  "children": [], 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "forumPost", 
+        "Elements", 
+        "btnForumPostReply.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "forumPost", 
+        "Elements", 
+        "txtForumPostMain.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "forumPost", 
+        "Elements", 
+        "btnHomeForumPost.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "forumPost", 
+        "Elements", 
+        "txtForumPostReply.json"
+      ]
+    }
+  ], 
   "class": "", 
   "designHeight": 0, 
   "designWidth": 0, 
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Form2", 
+  "id": "forumPost", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
