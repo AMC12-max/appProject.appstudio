@@ -29,6 +29,14 @@
             "anthonyForm", 
             "anthonyForm.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "statsAndGraphs", 
+            "statsAndGraphs.json"
+          ]
         }
       ], 
       "configxml": null, 
