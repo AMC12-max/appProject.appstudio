@@ -18,24 +18,24 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "Form1", 
-            "Form1.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "anthonyForm", 
-            "anthonyForm.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
             "statsAndGraphs", 
             "statsAndGraphs.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "uploadVideo", 
+            "uploadVideo.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "homePage", 
+            "homePage.json"
           ]
         }
       ], 
@@ -51,7 +51,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Form1", 
+      "firstform": "uploadVideo", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 

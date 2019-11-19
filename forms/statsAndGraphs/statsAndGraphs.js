@@ -1,5 +1,12 @@
 let teamPlayedAgainst = []
 let teamPlayedAs = []
+let iptFgPercentage = []
+let iptAssists = []
+let iptsRebounds = []
+let iptYourScore = []
+let iptOpponentScore = []
+let iptTurnoverMargin = []
+let iptTOP = []
 
   
 statsAndGraphs.onshow=function(){
@@ -50,7 +57,7 @@ teamPlayedAs.onclick=function(s){
       teamPlayedAs.value = s   
       
       
-     // let query2 = "INSERT INTO stats FROM customer WHERE name=" + '"' + teamPlayedAs.selection + '"' 
+     // let query2 = "INSERT INTO statistics (team_name) VALUES (teamPlayedAs.selection) + '"' 
       req2 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ajl98875&pass=Stlouiesunsv2@&database=ajl98875&query=" + query2)
       
       
@@ -72,4 +79,10 @@ teamPlayedAs.onclick=function(s){
       }
    }
 }
+
+
+
+
+
+
 
