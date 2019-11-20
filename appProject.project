@@ -18,16 +18,16 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "Form1", 
-            "Form1.json"
+            "forumPostReplyOption", 
+            "forumPostReplyOption.json"
           ]
         }, 
         {
           "!type": "External", 
           "file": [
             "forms", 
-            "forumPost", 
-            "forumPost.json"
+            "forumPostInitial", 
+            "forumPostInitial.json"
           ]
         }
       ], 
@@ -43,7 +43,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "forumPost", 
+      "firstform": "forumPostReplyOption", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 

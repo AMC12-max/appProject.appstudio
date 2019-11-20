@@ -14,7 +14,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "forumPost", 
+        "forumPostReplyOption", 
         "Elements", 
         "btnForumPostReply.json"
       ]
@@ -23,7 +23,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "forumPost", 
+        "forumPostReplyOption", 
         "Elements", 
         "txtForumPostMain.json"
       ]
@@ -32,7 +32,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "forumPost", 
+        "forumPostReplyOption", 
         "Elements", 
         "btnHomeForumPost.json"
       ]
@@ -41,7 +41,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "forumPost", 
+        "forumPostReplyOption", 
         "Elements", 
         "txtForumPostReply.json"
       ]
@@ -53,7 +53,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "forumPost", 
+  "id": "forumPostReplyOption", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
