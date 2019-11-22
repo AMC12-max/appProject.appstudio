@@ -18,8 +18,24 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "Form1", 
-            "Form1.json"
+            "SMS_Message", 
+            "SMS_Message.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Sign_Up", 
+            "Sign_Up.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Sign_in", 
+            "Sign_in.json"
           ]
         }
       ], 
@@ -35,7 +51,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Form1", 
+      "firstform": "Sign_in", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
@@ -71,7 +87,7 @@
       "useStrict": "", 
       "version": "1.0.0", 
       "viewportFit": "cover", 
-      "voltAppId": "", 
+      "voltAppId": "GrCA1x", 
       "voltDomain": ""
     }
   ], 
