@@ -25,15 +25,6 @@
         "forms", 
         "statsAndGraphs", 
         "Elements", 
-        "teamPlayedAgainst.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "statsAndGraphs", 
-        "Elements", 
         "txtDetail.json"
       ]
     }, 
