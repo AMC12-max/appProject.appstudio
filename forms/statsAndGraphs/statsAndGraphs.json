@@ -99,6 +99,15 @@
         "Elements", 
         "iptTOP.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "statsAndGraphs", 
+        "Elements", 
+        "btnSubmit.json"
+      ]
     }
   ], 
   "class": "", 

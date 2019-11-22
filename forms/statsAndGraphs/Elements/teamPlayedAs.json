@@ -31,7 +31,7 @@
   "hidden": "", 
   "icon": "caret", 
   "id": "teamPlayedAs", 
-  "items": "!Heading\nItem 1\nItem 2\n-\n*Item 3 (disabled)", 
+  "items": "", 
   "left": 4, 
   "mAll": "", 
   "mBottom": "", 

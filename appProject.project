@@ -37,6 +37,30 @@
             "homePage", 
             "homePage.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "dropdownCode", 
+            "dropdownCode.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "dropdownCode2", 
+            "dropdownCode2.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Form1", 
+            "Form1.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -51,7 +75,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "uploadVideo", 
+      "firstform": "statsAndGraphs", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
