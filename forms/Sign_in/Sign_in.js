@@ -23,12 +23,16 @@ let query = "SELECT username, user_password from users;"
           req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=mlc55572&pass=cHarliE125!&database=375groupb6&query=" + query)
 
       if (req1.status == 200) { //everything worked.
-            let results1 = JSON.parse(req1.responseText)
+            let results = JSON.parse(req1.responseText)
       
         //1 good 0 bad
         
 } 
-      if( results1 == `${username}, ${password}`){
+      if (req1.responseText == 0){
+      lblErrorSI.value("AJAX Error")
+}
+
+      if( req1.responseText.indexOf(username) > -1 && req1.responseText.indexOf(password) > -1){
             ChangeForm(Sign_Up)
 }
     
@@ -36,5 +40,4 @@ let query = "SELECT username, user_password from users;"
         //Handle that. 
               lblErrorSI.value = 'Error, Try Again'
 }
-console.log(results)
 }
