@@ -52,7 +52,8 @@ btnHomeForumPost.onclick=function(){
   changeForm(PLACEHOLDER)
 }
 
+//button to make reply text box appear 
 btnForumPostReply.onclick=function(){
-  //txtForumPostReply.style.display = "block"
+  
   txtForumPostReply.style.display = "block"
 }
