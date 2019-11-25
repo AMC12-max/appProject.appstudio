@@ -14,54 +14,45 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "homePageSignedIn", 
         "Elements", 
-        "lblWelcome.json"
+        "lblWelcome1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "homePageSignedIn", 
         "Elements", 
-        "Media1.json"
+        "Media11.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "homePageSignedIn", 
         "Elements", 
-        "lblPremier.json"
+        "hmbPages7.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "homePageSignedIn", 
         "Elements", 
-        "NBA2KTwitter.json"
+        "lblPremier1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "homePageSignedIn", 
         "Elements", 
-        "btnSignUp.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "homePage", 
-        "Elements", 
-        "btnSignIn.json"
+        "NBA2KTwitter1.json"
       ]
     }
   ], 
@@ -71,7 +62,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "homePage", 
+  "id": "homePageSignedIn", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

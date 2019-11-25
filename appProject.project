@@ -53,6 +53,70 @@
             "Charts", 
             "Charts.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Sign_in", 
+            "Sign_in.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Sign_Up", 
+            "Sign_Up.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "SMS_Message", 
+            "SMS_Message.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "forumMainPage", 
+            "forumMainPage.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "forumPostInitial", 
+            "forumPostInitial.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "forumPostReplyOption", 
+            "forumPostReplyOption.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "rssFeed", 
+            "rssFeed.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "homePageSignedIn", 
+            "homePageSignedIn.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -67,7 +131,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "submitGame", 
+      "firstform": "homePage", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 

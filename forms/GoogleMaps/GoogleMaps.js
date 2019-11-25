@@ -6,11 +6,11 @@ GoogleMaps.onshow=function(){
   hmbPages2.addItem("See Tournament Location") 
   hmbPages2.addItem("Upload Video")
   hmbPages2.addItem("Submit Game Stats")
-  hmbPages.addItem("View Your Recent Games")
+  hmbPages2.addItem("View Your Recent Games")
   hmbPages2.addItem("Message Board")
   hmbPages2.addItem("View official 2K Announcements")
 
-}
+
 
 
 hmbPages2.onclick=function(s){
@@ -38,7 +38,7 @@ hmbPages2.onclick=function(s){
           ChangeForm(rssFeed)
           break
      }
-
+}
 
 
 

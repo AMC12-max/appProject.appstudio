@@ -14,54 +14,18 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "rssFeed", 
         "Elements", 
-        "lblWelcome.json"
+        "btnRssFeed.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "rssFeed", 
         "Elements", 
-        "Media1.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "homePage", 
-        "Elements", 
-        "lblPremier.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "homePage", 
-        "Elements", 
-        "NBA2KTwitter.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "homePage", 
-        "Elements", 
-        "btnSignUp.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "homePage", 
-        "Elements", 
-        "btnSignIn.json"
+        "hmbPages5.json"
       ]
     }
   ], 
@@ -71,7 +35,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "homePage", 
+  "id": "rssFeed", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -79,10 +43,10 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "rssFeed.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
-  "position": "fixed", 
+  "position": "absolute", 
   "script": null, 
   "scroll_options": "mouseWheel:true, bounce:true, zoom:false", 
   "scrolling": "false", 

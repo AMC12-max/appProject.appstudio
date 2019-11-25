@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "grey", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -14,54 +14,36 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "forumMainPage", 
         "Elements", 
-        "lblWelcome.json"
+        "Header11.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "forumMainPage", 
         "Elements", 
-        "Media1.json"
+        "btnNewForumPost.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "forumMainPage", 
         "Elements", 
-        "lblPremier.json"
+        "lstForumPosts.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "forumMainPage", 
         "Elements", 
-        "NBA2KTwitter.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "homePage", 
-        "Elements", 
-        "btnSignUp.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "homePage", 
-        "Elements", 
-        "btnSignIn.json"
+        "hmbPages6.json"
       ]
     }
   ], 
@@ -71,7 +53,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "homePage", 
+  "id": "forumMainPage", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -79,10 +61,10 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "forumMainPage.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
-  "position": "fixed", 
+  "position": "absolute", 
   "script": null, 
   "scroll_options": "mouseWheel:true, bounce:true, zoom:false", 
   "scrolling": "false", 

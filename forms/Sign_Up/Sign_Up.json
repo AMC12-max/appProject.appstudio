@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "red", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -14,54 +14,81 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "Sign_Up", 
         "Elements", 
-        "lblWelcome.json"
+        "inptLastName.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "Sign_Up", 
         "Elements", 
-        "Media1.json"
+        "inptFirstName.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "Sign_Up", 
         "Elements", 
-        "lblPremier.json"
+        "inptPassword.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "Sign_Up", 
         "Elements", 
-        "NBA2KTwitter.json"
+        "inptUsername.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "Sign_Up", 
         "Elements", 
-        "btnSignUp.json"
+        "inptEmail.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "Sign_Up", 
         "Elements", 
-        "btnSignIn.json"
+        "inptPhoneNumber.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "Sign_Up", 
+        "Elements", 
+        "btnSignUpSubmit.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "Sign_Up", 
+        "Elements", 
+        "Header1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "Sign_Up", 
+        "Elements", 
+        "lblError.json"
       ]
     }
   ], 
@@ -69,9 +96,9 @@
   "designHeight": 0, 
   "designWidth": 0, 
   "expanded_pmp": null, 
-  "fullScreen": "true", 
+  "fullScreen": "false", 
   "height": 460, 
-  "id": "homePage", 
+  "id": "Sign_Up", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -82,7 +109,7 @@
   "onshow": "", 
   "openMode": "none", 
   "parentForm": "", 
-  "position": "fixed", 
+  "position": "absolute", 
   "script": null, 
   "scroll_options": "mouseWheel:true, bounce:true, zoom:false", 
   "scrolling": "false", 
