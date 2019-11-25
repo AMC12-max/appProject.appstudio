@@ -1,4 +1,45 @@
-statsAndGraphs.onshow=function(){
+
+submitGame.onshow=function(){
+
+
+
+  hmbPages1.clear()
+  hmbPages1.addItem("See Tournament Location") 
+  hmbPages1.addItem("Upload Video")
+  hmbPages1.addItem("Submit Game Stats")
+  hmbPages1.addItem("View Your Recent Games")
+  hmbPages1.addItem("Message Board")
+  hmbPages1.addItem("View official 2K Announcements")
+
+
+
+hmbPages1.onclick=function(s){
+  if (typeof(s) == "object") { // do nothing
+       return
+    }
+    switch(s) {
+      case "See Tournament Location":
+          ChangeForm(GoogleMaps)
+          break
+      case "Upload Video":
+          // do something
+          ChangeForm(uploadVideo)
+          break
+       case "Submit Game Stats":
+          ChangeForm(submitGame)
+          break
+         case "View Your Recent Games":
+          ChangeForm(Charts)
+          break
+       case "Message Board":
+          ChangeForm(forumMainPage)
+          break
+      case "View official 2K Announcements":
+          ChangeForm(rssFeed)
+          break
+     }
+
+}
   teamPlayedAs.clear()
   let query = "SELECT team_name FROM teams"
   req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ajl98875&pass=Stlouiesunsv2@&database=375groupb6&query=" + query)
@@ -54,7 +95,6 @@ teamPlayedAs.onclick=function(s){
 
 
 
-
 let teamYouUsed = []
 let fgPercentage = []
 let assists = []
@@ -63,6 +103,7 @@ let yourScore = []
 let opponentScore = []
 let turnoverMargin = []
 let tOP = []
+let userName = []
 
 
 btnSubmit.onclick=function(){
@@ -74,7 +115,8 @@ let yourScore = iptYourScore.value
 let opponentScore = iptOpponentScore.value
 let turnoverMargin = iptTurnoverMargin.value
 let tOP = iptTOP.value
-  let queryInsert = "INSERT INTO statistics (field_goal_percentage,assists,rebounds,turnover_margin,time_of_posession,your_score,opponents_score,team_name) VALUES ('"+fgPercentage+"', '"+assists+"', '"+rebounds+"','"+yourScore+"','"+opponentScore+"','"+turnoverMargin+"'," +tOP+")"
+let userID= iptUserID.value
+  let queryInsert = "INSERT INTO statistics (user_id,field_goal_percentage,assists,rebounds,turnover_margin,time_of_posession,team_name,your_score,opponents_score) VALUES ('"+userID+"', '"+fgPercentage+"', '"+assists+"','"+rebounds+"','"+turnoverMargin+"','"+tOP+"','"+teamYouUsed+"','"+yourScore+"'," +opponentScore+")"
 
     req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ajl98875&pass=Stlouiesunsv2@&database=375groupb6&query=" + queryInsert)
 

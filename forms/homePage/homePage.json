@@ -61,7 +61,7 @@
         "forms", 
         "homePage", 
         "Elements", 
-        "Button1.json"
+        "btnSignUp.json"
       ]
     }, 
     {
@@ -70,7 +70,7 @@
         "forms", 
         "homePage", 
         "Elements", 
-        "Button2.json"
+        "btnSignIn.json"
       ]
     }
   ], 

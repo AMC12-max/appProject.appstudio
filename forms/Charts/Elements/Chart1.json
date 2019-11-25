@@ -15,7 +15,7 @@
   "height": 160, 
   "hidden": "", 
   "id": "Chart1", 
-  "left": 3, 
+  "left": 1, 
   "onclick": "", 
   "onmousedown": "", 
   "onmousemove": "", 
@@ -36,6 +36,6 @@
   "title": "", 
   "titlePadding": "{ left: 2, top: 2, right: 2, bottom: 2 }", 
   "toolTipDelay": 500, 
-  "top": 149, 
+  "top": 171, 
   "width": 320
 }

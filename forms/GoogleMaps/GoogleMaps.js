@@ -1,3 +1,50 @@
+GoogleMaps.onshow=function(){
+
+
+
+  hmbPages2.clear()
+  hmbPages2.addItem("See Tournament Location") 
+  hmbPages2.addItem("Upload Video")
+  hmbPages2.addItem("Submit Game Stats")
+  hmbPages.addItem("View Your Recent Games")
+  hmbPages2.addItem("Message Board")
+  hmbPages2.addItem("View official 2K Announcements")
+
+}
+
+
+hmbPages2.onclick=function(s){
+  if (typeof(s) == "object") { // do nothing
+       return
+    }
+    switch(s) {
+      case "See Tournament Location":
+          ChangeForm(GoogleMaps)
+          break
+      case "Upload Video":
+          // do something
+          ChangeForm(uploadVideo)
+          break
+       case "Submit Game Stats":
+          ChangeForm(submitGame)
+          break
+        case "View Your Recent Games":
+          ChangeForm(Charts)
+          break
+       case "Message Board":
+          ChangeForm(forumMainPage)
+          break
+      case "View official 2K Announcements":
+          ChangeForm(rssFeed)
+          break
+     }
+
+
+
+
+
+
+
 let marker = ""
 let infowindow = ""
 
@@ -59,7 +106,7 @@ function CHILocation(location) {
   NSB.WaitCursor(false);
 }
 
-
+}
 
 
 

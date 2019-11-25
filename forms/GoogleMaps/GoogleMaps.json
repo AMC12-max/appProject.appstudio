@@ -45,6 +45,15 @@
         "Elements", 
         "lblHeading.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "GoogleMaps", 
+        "Elements", 
+        "hmbPages2.json"
+      ]
     }
   ], 
   "class": "", 

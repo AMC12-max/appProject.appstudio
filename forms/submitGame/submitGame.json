@@ -14,7 +14,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "statsAndGraphs", 
+        "submitGame", 
         "Elements", 
         "teamPlayedAs.json"
       ]
@@ -23,7 +23,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "statsAndGraphs", 
+        "submitGame", 
         "Elements", 
         "txtDetail.json"
       ]
@@ -32,7 +32,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "statsAndGraphs", 
+        "submitGame", 
         "Elements", 
         "iptFgPercentage.json"
       ]
@@ -41,7 +41,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "statsAndGraphs", 
+        "submitGame", 
         "Elements", 
         "iptAssists.json"
       ]
@@ -50,7 +50,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "statsAndGraphs", 
+        "submitGame", 
         "Elements", 
         "iptsRebounds.json"
       ]
@@ -59,7 +59,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "statsAndGraphs", 
+        "submitGame", 
         "Elements", 
         "iptYourScore.json"
       ]
@@ -68,7 +68,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "statsAndGraphs", 
+        "submitGame", 
         "Elements", 
         "iptOpponentScore.json"
       ]
@@ -77,7 +77,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "statsAndGraphs", 
+        "submitGame", 
         "Elements", 
         "iptTurnoverMargin.json"
       ]
@@ -86,7 +86,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "statsAndGraphs", 
+        "submitGame", 
         "Elements", 
         "iptTOP.json"
       ]
@@ -95,9 +95,27 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "statsAndGraphs", 
+        "submitGame", 
         "Elements", 
         "btnSubmit.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "submitGame", 
+        "Elements", 
+        "iptUserID.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "submitGame", 
+        "Elements", 
+        "hmbPages1.json"
       ]
     }
   ], 
@@ -107,7 +125,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "statsAndGraphs", 
+  "id": "submitGame", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

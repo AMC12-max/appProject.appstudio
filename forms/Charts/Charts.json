@@ -16,6 +16,15 @@
         "forms", 
         "Charts", 
         "Elements", 
+        "btnShowChart.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "Charts", 
+        "Elements", 
         "Chart1.json"
       ]
     }

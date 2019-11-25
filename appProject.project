@@ -18,8 +18,8 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "statsAndGraphs", 
-            "statsAndGraphs.json"
+            "submitGame", 
+            "submitGame.json"
           ]
         }, 
         {
@@ -67,7 +67,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "GoogleMaps", 
+      "firstform": "submitGame", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
