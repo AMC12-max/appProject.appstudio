@@ -96,7 +96,7 @@
   "designHeight": 0, 
   "designWidth": 0, 
   "expanded_pmp": null, 
-  "fullScreen": "true", 
+  "fullScreen": "false", 
   "height": 460, 
   "id": "Sign_Up", 
   "language": "JavaScript", 
