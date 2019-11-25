@@ -37,7 +37,7 @@
   "mLeft": "", 
   "mRight": "", 
   "mTop": "", 
-  "onclick": "", 
+  "onclick": "hmbPages6.onclick()", 
   "onmousedown": "", 
   "onmousemove": "", 
   "onmouseout": "", 

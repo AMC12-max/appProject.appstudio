@@ -11,18 +11,19 @@
 
 
 forumMainPage.onshow=function(){
-    hmbPages.clear()
-  hmbPages.addItem("See Tournament Location") 
-  hmbPages.addItem("Upload Video")
-  hmbPages.addItem("Submit Game Stats")
-  hmbPages.addItem("View your recent games")
-  hmbPages.addItem("Message Board")
-  hmbPages.addItem("View official 2K Announcements")
+    hmbPages6.clear()
+  hmbPages6.addItem("See Tournament Location") 
+  hmbPages6.addItem("Upload Video")
+  hmbPages6.addItem("Submit Game Stats")
+  hmbPages6.addItem("View your recent games")
+  hmbPages6.addItem("Message Board")
+  hmbPages6.addItem("View official 2K Announcements")
 
 }
 
 
-hmbPages6.onclick=function(s){
+hmbPages6.onclick=function(){
+  
   if (typeof(s) == "object") { // do nothing
        return
     }
