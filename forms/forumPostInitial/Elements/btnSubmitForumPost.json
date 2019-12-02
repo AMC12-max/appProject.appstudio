@@ -29,7 +29,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "btnSubmitForumPost", 
-  "left": 207, 
+  "left": 209, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": 184, 
+  "top": 252, 
   "value": "Submit ", 
   "width": "auto"
 }

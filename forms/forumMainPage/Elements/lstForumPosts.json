@@ -28,7 +28,7 @@
   "mLeft": "", 
   "mRight": "", 
   "mTop": "", 
-  "onclick": "", 
+  "onclick": "lstForumPosts.onclick()", 
   "onmousedown": "", 
   "onmousemove": "", 
   "onmouseout": "", 

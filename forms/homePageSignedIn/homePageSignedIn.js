@@ -1,4 +1,4 @@
-homePage.onshow=function(){
+homePageSignedIn.onshow=function(){
 
 
   hmbPages7.clear()
@@ -41,10 +41,3 @@ hmbPages7.onclick=function(s){
 }
 
 
-btnSignUp.onclick=function(){
-  ChangeForm(Sign_Up)
-}
-
-btnSignIn.onclick=function(){
-  ChangeForm(Sign_in)
-}

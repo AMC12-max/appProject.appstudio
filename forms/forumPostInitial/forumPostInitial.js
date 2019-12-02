@@ -1,12 +1,11 @@
 
-
-/*
+//cannot use apostrophe's when putting in information
 
 btnSubmitForumPost.onclick=function(){
-    let name = inptName.value
-    let animalType = inptType.value
+    let postText = txtForumPostInitial.value
+
   
-    let query = "INSERT INTO message (petName,petType) VALUES ('" + name + "', '" + animalType + "')"
+    let query = "INSERT INTO message (main_content) VALUES ('" + postText + "')"
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=cll54497&pass=Laurenzo1!&database=375groupb6&query=" + query)
 
     if (req1.status == 200) { //transit worked.
@@ -19,18 +18,13 @@ btnSubmitForumPost.onclick=function(){
         // transit error
         NSB.MsgBox("Error: " + req1.status)
     }  
+
 }
-
-
-
-
-
-
 
 
 
 
 btnReturnHomeForumInitial.onclick=function(){
-  changeForm(PLACEHOLDER)
+  ChangeForm(homePageSignedIn)
 }
-*/
+

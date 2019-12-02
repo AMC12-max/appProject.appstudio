@@ -116,9 +116,10 @@ let opponentScore = iptOpponentScore.value
 let turnoverMargin = iptTurnoverMargin.value
 let tOP = iptTOP.value
 let userID= iptUserID.value
-  let queryInsert = "INSERT INTO statistics (user_id,field_goal_percentage,assists,rebounds,turnover_margin,time_of_posession,team_name,your_score,opponents_score) VALUES ('"+userID+"', '"+fgPercentage+"', '"+assists+"','"+rebounds+"','"+turnoverMargin+"','"+tOP+"','"+teamYouUsed+"','"+yourScore+"'," +opponentScore+")"
-
-    req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ajl98875&pass=Stlouiesunsv2@&database=375groupb6&query=" + queryInsert)
+ // let queryInsert = "INSERT INTO statistics (user_id,field_goal_percentage,assists,rebounds,turnover_margin,time_of_posession,team_name,your_score,opponents_score) VALUES ('"+userID+"', '"+fgPercentage+"', '"+assists+"','"+rebounds+"','"+turnoverMargin+"','"+tOP+"','"+teamYouUsed+"','"+yourScore+"'," +opponentScore+")"
+    let queryInsert = "INSERT INTO statistics (user_id) VALUES ('"+userID+")"
+   
+   req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ajl98875&pass=Stlouiesunsv2@&database=375groupb6&query=" + queryInsert)
 
     if (req3.status == 200) { //transit worked.
         if (req3.responseText == 500) {   // means the insert succeeded

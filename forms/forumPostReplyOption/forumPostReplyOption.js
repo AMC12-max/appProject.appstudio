@@ -44,7 +44,7 @@ btnSubmit22.onclick=function(){
 
 
 
-
+/*
 
 
 //button to get back to home page 
@@ -57,3 +57,5 @@ btnForumPostReply.onclick=function(){
   
   txtForumPostReply.style.display = "block"
 }
+
+*/
