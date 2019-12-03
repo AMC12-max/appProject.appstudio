@@ -1,6 +1,6 @@
 {
   "!type": "Textarea_bs4", 
-  "align": "", 
+  "align": "text-align:center; ", 
   "autocapitalize": "", 
   "autocomplete": "", 
   "autocorrect": "", 
@@ -21,9 +21,9 @@
   "fontStyle": "", 
   "fontWeight": "", 
   "footer": "", 
-  "header": "Username - Post title - Date Time", 
+  "header": "Response Post", 
   "headerCols": 20, 
-  "height": "auto", 
+  "height": 178, 
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
@@ -72,9 +72,9 @@
   "script": "", 
   "spellcheck": "true", 
   "style": "", 
-  "top": 18, 
+  "top": 183, 
   "validation": "", 
   "value": "", 
   "valueCols": 10, 
-  "width": 271
+  "width": 288
 }

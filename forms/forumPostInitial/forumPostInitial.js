@@ -3,9 +3,9 @@
 
 btnSubmitForumPost.onclick=function(){
     let postText = txtForumPostInitial.value
-
+    let postTitle = txtPostTitle.value
   
-    let query = "INSERT INTO message (main_content) VALUES ('" + postText + "')"
+    let query = "INSERT INTO message (main_content,title) VALUES ('" + postText + "', '" + postTitle + "')"
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=cll54497&pass=Laurenzo1!&database=375groupb6&query=" + query)
 
     if (req1.status == 200) { //transit worked.

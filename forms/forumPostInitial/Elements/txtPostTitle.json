@@ -21,13 +21,13 @@
   "fontStyle": "", 
   "fontWeight": "", 
   "footer": "", 
-  "header": "Post Content Below", 
+  "header": "Post Title", 
   "headerCols": 2, 
-  "height": 179, 
+  "height": 64, 
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
-  "id": "txtForumPostInitial", 
+  "id": "txtPostTitle", 
   "inputmode": "", 
   "left": 22, 
   "mAll": "", 
@@ -72,9 +72,9 @@
   "script": "", 
   "spellcheck": "true", 
   "style": "", 
-  "top": 120, 
+  "top": 34, 
   "validation": "", 
   "value": "", 
   "valueCols": 10, 
-  "width": 286
+  "width": 284
 }

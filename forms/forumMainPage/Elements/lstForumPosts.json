@@ -19,9 +19,9 @@
   "hidden": "", 
   "icons": "", 
   "id": "lstForumPosts", 
-  "itemBadges": "1\n2\n3\n4", 
-  "items": "Listgroup Item 1\n>Item 2\n*Item 3 (disabled)\nItem 4", 
-  "left": 68, 
+  "itemBadges": "", 
+  "items": "", 
+  "left": 74, 
   "listStyle": "ul", 
   "mAll": "", 
   "mBottom": "", 
@@ -50,6 +50,6 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 58, 
+  "top": 138, 
   "width": "180px"
 }

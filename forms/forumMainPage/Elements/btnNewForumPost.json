@@ -29,7 +29,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "btnNewForumPost", 
-  "left": 219, 
+  "left": 112, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": 413, 
+  "top": 53, 
   "value": "New Post", 
   "width": "auto"
 }

@@ -45,6 +45,15 @@
         "Elements", 
         "hmbPages9.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "forumMainPage", 
+        "Elements", 
+        "Label1.json"
+      ]
     }
   ], 
   "class": "", 

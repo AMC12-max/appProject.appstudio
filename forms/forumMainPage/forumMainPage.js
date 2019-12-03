@@ -67,7 +67,10 @@ lstForumPosts.clear()
 
 
 
-
 btnNewForumPost.onclick=function(){
   ChangeForm(forumPostInitial)
+}
+
+lstForumPosts.onclick=function(){
+  ChangeForm(forumPostReplyOption)
 }

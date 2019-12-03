@@ -45,6 +45,24 @@
         "Elements", 
         "txtForumPostReply.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "forumPostReplyOption", 
+        "Elements", 
+        "forumPosts.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "forumPostReplyOption", 
+        "Elements", 
+        "txtForum.json"
+      ]
     }
   ], 
   "class": "", 
@@ -61,7 +79,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "forumPostReplyOption.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

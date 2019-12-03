@@ -16,15 +16,6 @@
         "forms", 
         "forumPostInitial", 
         "Elements", 
-        "txtForumPostInitial.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "forumPostInitial", 
-        "Elements", 
         "btnSubmitForumPost.json"
       ]
     }, 
@@ -35,6 +26,24 @@
         "forumPostInitial", 
         "Elements", 
         "btnReturnHomeForumInitial.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "forumPostInitial", 
+        "Elements", 
+        "txtPostTitle.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "forumPostInitial", 
+        "Elements", 
+        "txtForumPostInitial.json"
       ]
     }
   ], 

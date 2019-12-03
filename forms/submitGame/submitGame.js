@@ -92,7 +92,7 @@ teamPlayedAs.onclick=function(s){
         NSB.MsgBox("Something wrong")
       }
    }
-
+}
 
 
 let teamYouUsed = []
@@ -104,6 +104,8 @@ let opponentScore = []
 let turnoverMargin = []
 let tOP = []
 let userName = []
+
+
 
 
 btnSubmit.onclick=function(){
@@ -127,7 +129,7 @@ let userID= iptUserID.value
 }
 }
 }
-}
+
 
 
 
