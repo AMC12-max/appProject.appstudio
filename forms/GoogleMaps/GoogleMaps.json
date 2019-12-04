@@ -54,6 +54,15 @@
         "Elements", 
         "hmbPages2.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "GoogleMaps", 
+        "Elements", 
+        "Label5.json"
+      ]
     }
   ], 
   "class": "", 

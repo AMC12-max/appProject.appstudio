@@ -3,6 +3,7 @@ GoogleMaps.onshow=function(){
 
 
   hmbPages2.clear()
+  hmbPages2.addItem("Home")
   hmbPages2.addItem("See Tournament Location") 
   hmbPages2.addItem("Upload Video")
   hmbPages2.addItem("Submit Game Stats")
@@ -18,6 +19,9 @@ hmbPages2.onclick=function(s){
        return
     }
     switch(s) {
+    case "Home":
+          ChangeForm(homePageSignedIn)
+          break
       case "See Tournament Location":
           ChangeForm(GoogleMaps)
           break
@@ -26,7 +30,7 @@ hmbPages2.onclick=function(s){
           ChangeForm(uploadVideo)
           break
        case "Submit Game Stats":
-          ChangeForm(submitGame)
+          ChangeForm(submitGame3)
           break
         case "View Your Recent Games":
           ChangeForm(Charts)

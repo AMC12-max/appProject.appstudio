@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "Grey", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -116,6 +116,24 @@
         "submitGame3", 
         "Elements", 
         "teamPlayedAs3.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "submitGame3", 
+        "Elements", 
+        "lblHeadingCopy.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "submitGame3", 
+        "Elements", 
+        "Label2.json"
       ]
     }
   ], 

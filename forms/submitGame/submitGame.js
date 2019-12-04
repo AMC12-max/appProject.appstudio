@@ -1,3 +1,7 @@
+/*
+
+
+
 let teamYouUsed = []
 let fgPercentage = []
 let assists = []
@@ -134,7 +138,7 @@ let userID= iptUserID.value
 }
 }
 
-
+*/
 
 
   

@@ -3,6 +3,7 @@ forumMainPage.onshow=function(){
    
   
   hmbPages9.clear()
+  hmbPages9.addItem("Home")
   hmbPages9.addItem("See Tournament Location") 
   hmbPages9.addItem("Upload Video")
   hmbPages9.addItem("Submit Game Stats")
@@ -17,6 +18,9 @@ hmbPages9.onclick=function(s){
        return
     }
     switch(s) {
+    case "Home":
+          ChangeForm(homePageSignedIn)
+          break
       case "See Tournament Location":
           ChangeForm(GoogleMaps)
           break
@@ -25,7 +29,7 @@ hmbPages9.onclick=function(s){
           ChangeForm(uploadVideo)
           break
        case "Submit Game Stats":
-          ChangeForm(submitGame)
+          ChangeForm(submitGame3)
           break
          case "View Your Recent Games":
           ChangeForm(Charts)
