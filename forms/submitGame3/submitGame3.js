@@ -65,9 +65,9 @@ let userID1 = iptUserID1.value
     if (req1.status == 200) { //transit worked.
         if (req1.responseText == 500) {   // means the insert succeeded
             let result = JSON.parse(req1.responseText)
-            NSB.MsgBox("You have successfully created the post!")
+            NSB.MsgBox("You have successfully submitted your stats")
         } else
-            NSB.MsgBox("There was a problem with adding the post to the forum.")
+            NSB.MsgBox("There was a problem with submitting your stats.")
     } else {
         // transit error
         NSB.MsgBox("Error: " + req1.status)

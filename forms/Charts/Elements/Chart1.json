@@ -1,13 +1,13 @@
 {
   "!type": "Chart", 
-  "background": "white", 
+  "background": "", 
   "bottom": "auto", 
   "cached_js": "", 
   "cached_js_script_hash": "d41d8cd98f00b204e9800998ecf8427e", 
   "children": [], 
   "class": "", 
-  "colorScheme": "scheme01", 
-  "description": "", 
+  "colorScheme": "scheme10", 
+  "description": "Your Last 5 Games", 
   "disabled": "false", 
   "display": "", 
   "enabled": "true", 
@@ -36,6 +36,6 @@
   "title": "", 
   "titlePadding": "{ left: 2, top: 2, right: 2, bottom: 2 }", 
   "toolTipDelay": 500, 
-  "top": 171, 
-  "width": 320
+  "top": "200", 
+  "width": "450"
 }

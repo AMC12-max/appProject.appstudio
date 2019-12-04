@@ -32,7 +32,7 @@ forumPosts.onclick=function(s){
       forumPosts.value = s   // make dropdown show choice user made
       
       //get the information from the database
-      let query2 = "SELECT * FROM message WHERE title=" + '"' + forumPosts.selection + '"' 
+      let query2 = "SELECT main_content FROM message WHERE title=" + '"' + forumPosts.selection + '"' 
       req2 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ajl98875&pass=Stlouiesunsv2@&database=375groupb6&query=" + query2)
       
       
@@ -47,7 +47,7 @@ forumPosts.onclick=function(s){
               for (i = 1; i <= 2; i++)
                   message2 = message2 + results2[0][i] + "\n"
               for (i =3; i <=5; i++)
-                  message2 = message2 + results2[0][i] + "\n "
+                message2 = message2 + results2[0][i] + "\n "
               txtForum.value = message2
           } 
       }else{
@@ -58,25 +58,24 @@ forumPosts.onclick=function(s){
 
 
 btnForumPostReply.onclick=function(){
-let postReply = txtForumPostReply.value 
+let postReply = txtForumPostMain.value 
 
-// let query = "INSERT INTO message (reply_content) VALUES ('" + postReply + "') WHERE main_content = " + '"' + forumPosts.selection + '"' 
+//let query = "INSERT INTO message (reply_content) VALUES ('" + postReply + "') WHERE main_content = " + '"' + forumPosts.selection + '"' 
 //  let query = "INSERT INTO users (user_email, username, user_password, first_name, last_name, phone_number) VALUES ('" + email + "', '" + username + "', '" + password + "' , '" + firstName + "' , '" + lastName + "' , '"  + phoneNumber + "')"
 
- let query = "UPDATE message SET reply_content = '" + postReply + "' WHERE title = '"  + forumPost.selection + "')"
+let query = "UPDATE message SET reply_content = '" + postReply + "' WHERE title = '"  + forumPosts.selection + "'"
 req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=mlc55572&pass=cHarliE125!&database=375groupb6&query=" + query)
    
-     if (req1.status == 200) {
-    let results = JSON.parse(req1.responseText)
-    
- }   
-   //Giver error if there are no results otherwise give a welcome message. 
-    if (req1.responseText.length == 0)
-  NSB.MsgBox("Error replying")    
-  
-  else {        
-      NSB.MsgBox("Reply added")
-}
+      if (req1.status == 200) { //transit worked.
+        if (req1.responseText == 500) {   // means the insert succeeded
+            let result = JSON.parse(req1.responseText)
+            NSB.MsgBox("You have successfully responded to the post!")
+        } else
+            NSB.MsgBox("There was a problem with adding your response to the forum.")
+    } else {
+        // transit error
+        NSB.MsgBox("Error: " + req1.status)
+    }  
 
 }
 }
@@ -101,7 +100,7 @@ req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POS
 
 //button to get back to home page 
 btnHomeForumPost.onclick=function(){
-  changeForm(homePageSignedIn)
+  ChangeForm(homePageSignedIn)
 }
 
 

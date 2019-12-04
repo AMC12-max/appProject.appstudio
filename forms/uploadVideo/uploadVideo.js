@@ -4,8 +4,8 @@
 */
 
 
-/*
 
+/*
 let picBase64 = ""
 let pic1 = ""
 let userData = ''
@@ -46,8 +46,6 @@ save.onclick=function(){
         alert("Error: " + req3.status)
     }  
 }
-
-
 
 
 btnInsertPic.onclick=function(){
