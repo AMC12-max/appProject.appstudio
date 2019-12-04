@@ -7,8 +7,6 @@ btnRssFeed.onclick=function(){
 
       console.log("------------------------")
       console.log("title      : " + el.find("title").text())
-      console.log("author     : " + el.find("author").text())
-      console.log("description: " + el.find("description").text())
     });
   });
 } 

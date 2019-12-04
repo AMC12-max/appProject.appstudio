@@ -1,7 +1,14 @@
+let teamYouUsed = []
+let fgPercentage = []
+let assists = []
+let rebounds = []
+let yourScore = []
+let opponentScore = []
+let turnoverMargin = []
+let tOP = []
+let userName = []
 
 submitGame.onshow=function(){
-
-
 
   hmbPages1.clear()
   hmbPages1.addItem("See Tournament Location") 
@@ -10,8 +17,6 @@ submitGame.onshow=function(){
   hmbPages1.addItem("View Your Recent Games")
   hmbPages1.addItem("Message Board")
   hmbPages1.addItem("View official 2K Announcements")
-
-
 
 hmbPages1.onclick=function(s){
   if (typeof(s) == "object") { // do nothing
@@ -39,8 +44,9 @@ hmbPages1.onclick=function(s){
           break
      }
 
-}
-  teamPlayedAs.clear()
+
+ 
+ teamPlayedAs.clear()
   let query = "SELECT team_name FROM teams"
   req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ajl98875&pass=Stlouiesunsv2@&database=375groupb6&query=" + query)
   
@@ -95,15 +101,7 @@ teamPlayedAs.onclick=function(s){
 }
 
 
-let teamYouUsed = []
-let fgPercentage = []
-let assists = []
-let rebounds = []
-let yourScore = []
-let opponentScore = []
-let turnoverMargin = []
-let tOP = []
-let userName = []
+
 
 
 
@@ -125,11 +123,16 @@ let userID= iptUserID.value
 
     if (req3.status == 200) { //transit worked.
         if (req3.responseText == 500) {   // means the insert succeeded
-
+   
+   if (req3.responseText.length == 0)
+        NSB.MsgBox("Error")
+    else {        
+        NSB.MsgBox("Success")
 }
 }
 }
-
+}
+}
 
 
 

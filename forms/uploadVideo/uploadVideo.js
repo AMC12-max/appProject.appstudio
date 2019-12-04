@@ -6,18 +6,18 @@
 
 /*
 
-let let picBase64 = ""
+let picBase64 = ""
 let pic1 = ""
 let userData = ''
 
 reader = new FileReader()
 
-txtGetPicture.onchange = function() {
+txtGetVideo.onchange = function() {
 // upload picture from filesystem on laptop or photos on phone (deploy to Volt for phone)
      //This gets called after the picture is chosen. 
      //Next, let's read start reading it in.
      //The _onload function will be called when that completes.
-     reader.readAsDataURL(txtGetPicture.files[0])
+     reader.readAsDataURL(txtGetVideo.files[0])
 };
 
 reader.onload = function(e) {
@@ -31,22 +31,23 @@ reader.onload = function(e) {
   
 save.onclick=function(){ 
 // saves picture into database
-    let netID2 = "ajl98875"
-    let fName2 = "anthony"
+    let user_id = "1"
     //alert(standing.selectedItem())
     // let picture = txtGetPicture.files[0]
         
-    let query = "INSERT INTO user (netID,name,photo) VALUES ('"+netID2+"','"+fName2+"','"+picBase64+"')" 
-    let req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ajl98875&pass=Stlouiesunsv2@&database=ajl98875&query=" + query)
+    let query = "INSERT INTO video (video,user_id,) VALUES ('"+picBase64+"','"+user_id+"')" 
+    let req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ajl98875&pass=Stlouiesunsv2@&database=375groupb6&query=" + query)
 
     if (req3.status == 200) { //everything worked. :)
-        alert("User added"); 
-        NSB.MsgBox("Thank you for joining us, "+fName2 +"!", 0, "Welcome!");
-        ChangeForm(studentSearch, "fade");
+        alert("Video Submitted"); 
+        NSB.MsgBox("Thank you for your video, a professional will review it soon!");
+        ChangeForm(homePageSignedIn);
     } else {
         alert("Error: " + req3.status)
     }  
 }
+
+
 
 
 btnInsertPic.onclick=function(){

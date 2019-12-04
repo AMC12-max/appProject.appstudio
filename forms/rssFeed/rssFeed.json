@@ -27,6 +27,15 @@
         "Elements", 
         "hmbPages5.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "rssFeed", 
+        "Elements", 
+        "txtRSS.json"
+      ]
     }
   ], 
   "class": "", 

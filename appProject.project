@@ -117,6 +117,14 @@
             "homePageSignedIn", 
             "homePageSignedIn.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "submitGame3", 
+            "submitGame3.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -131,7 +139,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "submitGame", 
+      "firstform": "submitGame3", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
