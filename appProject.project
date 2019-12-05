@@ -26,14 +26,6 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "uploadVideo", 
-            "uploadVideo.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
             "homePage", 
             "homePage.json"
           ]
@@ -68,14 +60,6 @@
             "forms", 
             "Sign_Up", 
             "Sign_Up.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "SMS_Message", 
-            "SMS_Message.json"
           ]
         }, 
         {
@@ -163,7 +147,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Charts3", 
+      "firstform": "homePageSignedIn", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 

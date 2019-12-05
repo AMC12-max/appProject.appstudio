@@ -1,19 +1,19 @@
-homePageSignedIn.onshow=function(){
+MainPages.onshow=function(){
 
 
-  hmbPages7.clear()
-  hmbPages7.addItem("Home")
-  hmbPages7.addItem("See Tournament Location") 
-  hmbPages7.addItem("Upload Video")
-  hmbPages7.addItem("Submit Game Stats")
-  hmbPages7.addItem("View Your Recent Games")
-  hmbPages7.addItem("Message Board")
-  hmbPages7.addItem("View official 2K Announcements")
+  hmbPages12.clear()
+  hmbPages12.addItem("Home")
+  hmbPages12.addItem("See Tournament Location") 
+  hmbPages12.addItem("Upload Video")
+  hmbPages12.addItem("Submit Game Stats")
+  hmbPages12.addItem("View Your Recent Games")
+  hmbPages12.addItem("Message Board")
+  hmbPages12.addItem("View official 2K Announcements")
 
 }
 
 
-hmbPages7.onclick=function(s){
+hmbPages12.onclick=function(s){
   if (typeof(s) == "object") { // do nothing
        return
     }
@@ -43,5 +43,3 @@ hmbPages7.onclick=function(s){
      }
 
 }
-
-

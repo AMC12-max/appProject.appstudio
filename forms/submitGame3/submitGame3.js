@@ -36,7 +36,7 @@ hmbPages11.onclick=function(s){
           ChangeForm(submitGame3)
           break
         case "View Your Recent Games":
-          ChangeForm(Charts)
+          ChangeForm(MainCharts)
           break
        case "Message Board":
           ChangeForm(forumMainPage)

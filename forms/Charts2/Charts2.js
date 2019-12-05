@@ -1,4 +1,3 @@
-
 var yourTeamWins,section;
 
 btnShowChart2.onclick = function () {
@@ -23,7 +22,8 @@ for     (i=(0); i <= 10; i++) {
  // section["NBA Team"] = result[i][1];
  //    section["Game3"] = result[i][2];
     yourTeamWins[i]= section;
-  }
+ console.log(result)
+ }
 }
 
   NSB.jqxSettings["Chart2"].source = yourTeamWins;

@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "Grey", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -16,7 +16,52 @@
         "forms", 
         "MainCharts", 
         "Elements", 
-        "btnMainChart.json"
+        "btnMainCharts.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "MainCharts", 
+        "Elements", 
+        "btnMainCharts2.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "MainCharts", 
+        "Elements", 
+        "btnMainCharts3.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "MainCharts", 
+        "Elements", 
+        "btnMainCharts4.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "MainCharts", 
+        "Elements", 
+        "hmbPages12.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "MainCharts", 
+        "Elements", 
+        "Label6.json"
       ]
     }
   ], 
