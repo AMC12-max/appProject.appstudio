@@ -133,6 +133,22 @@
             "Charts2", 
             "Charts2.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Charts3", 
+            "Charts3.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "MainCharts", 
+            "MainCharts.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -147,7 +163,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Charts2", 
+      "firstform": "Charts3", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
