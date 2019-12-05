@@ -125,6 +125,14 @@
             "submitGame3", 
             "submitGame3.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Charts2", 
+            "Charts2.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -139,7 +147,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Charts", 
+      "firstform": "Charts2", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
