@@ -90,14 +90,6 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "rssFeed", 
-            "rssFeed.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
             "homePageSignedIn", 
             "homePageSignedIn.json"
           ]
@@ -146,14 +138,6 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "uploadVideo", 
-            "uploadVideo.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
             "reviewVideo", 
             "reviewVideo.json"
           ]
@@ -170,8 +154,16 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "rssFeed1", 
-            "rssFeed1.json"
+            "rssFeed", 
+            "rssFeed.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "uploadVideo", 
+            "uploadVideo.json"
           ]
         }
       ], 
@@ -187,7 +179,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "homePage", 
+      "firstform": "homePageSignedIn", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 

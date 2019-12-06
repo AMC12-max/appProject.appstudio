@@ -53,25 +53,7 @@
         "forms", 
         "uploadVideo", 
         "Elements", 
-        "txtGetPicture.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "uploadVideo", 
-        "Elements", 
         "btnSubmitImage.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "uploadVideo", 
-        "Elements", 
-        "btnSubmitVideo.json"
       ]
     }, 
     {
@@ -98,7 +80,7 @@
         "forms", 
         "uploadVideo", 
         "Elements", 
-        "inptPhoneVideo.json"
+        "txtGetPicture.json"
       ]
     }, 
     {
@@ -107,7 +89,7 @@
         "forms", 
         "uploadVideo", 
         "Elements", 
-        "Label7.json"
+        "btnSubmitVideo.json"
       ]
     }
   ], 

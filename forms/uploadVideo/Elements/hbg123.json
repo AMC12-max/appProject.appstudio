@@ -25,7 +25,7 @@
   "fontWeight": "", 
   "groupStyle": "", 
   "grouping": "", 
-  "height": 39, 
+  "height": "auto", 
   "hidden": "", 
   "icon": "menu", 
   "iconTitle": "", 
@@ -63,5 +63,5 @@
   "style": "float:right;", 
   "top": 1, 
   "value": "", 
-  "width": 40
+  "width": "auto"
 }

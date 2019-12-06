@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "Grey", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -25,16 +25,7 @@
         "forms", 
         "rssFeed", 
         "Elements", 
-        "hmbPages5.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "rssFeed", 
-        "Elements", 
-        "txtRSS.json"
+        "Button4.json"
       ]
     }
   ], 
