@@ -10,6 +10,8 @@ forumMainPage.onshow=function(){
   hmbPages9.addItem("View Your Recent Games")
   hmbPages9.addItem("Message Board")
   hmbPages9.addItem("View official 2K Announcements")
+  hmbPages9.addItem("Review Video")
+
 
 
 
@@ -39,6 +41,9 @@ hmbPages9.onclick=function(s){
           break
       case "View official 2K Announcements":
           ChangeForm(rssFeed)
+          break
+        case "Review Video":
+          ChangeForm(reviewVideo)
           break
      }
 

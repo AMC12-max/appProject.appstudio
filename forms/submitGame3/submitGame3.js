@@ -12,7 +12,8 @@ submitGame3.onshow=function(){
   hmbPages11.addItem("View Your Recent Games")
   hmbPages11.addItem("Message Board")
   hmbPages11.addItem("View official 2K Announcements")
-  
+  hmbPages11.addItem("Review Video")
+ 
 
 
 
@@ -43,6 +44,9 @@ hmbPages11.onclick=function(s){
           break
       case "View official 2K Announcements":
           ChangeForm(rssFeed)
+          break
+      case "Review Video":
+          ChangeForm(reviewVideo)
           break
      }
 }

@@ -9,6 +9,7 @@ homePageSignedIn.onshow=function(){
   hmbPages7.addItem("View Your Recent Games")
   hmbPages7.addItem("Message Board")
   hmbPages7.addItem("View official 2K Announcements")
+  hmbPages7.addItem("Review Video")
 
 }
 
@@ -39,6 +40,9 @@ hmbPages7.onclick=function(s){
           break
       case "View official 2K Announcements":
           ChangeForm(rssFeed)
+          break
+      case "Review Video":
+          ChangeForm(reviewVideo)
           break
      }
 

@@ -133,6 +133,46 @@
             "MainCharts", 
             "MainCharts.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Charts4", 
+            "Charts4.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "uploadVideo", 
+            "uploadVideo.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "reviewVideo", 
+            "reviewVideo.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "SendSms", 
+            "SendSms.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "rssFeed1", 
+            "rssFeed1.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -147,7 +187,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "homePageSignedIn", 
+      "firstform": "homePage", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 

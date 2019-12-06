@@ -1,6 +1,6 @@
 {
   "!type": "Button_bs4", 
-  "ChangeForm": "", 
+  "ChangeForm": "Charts4", 
   "appearance": " btn-secondary", 
   "backgroundColor": "Black", 
   "badge": "", 
@@ -29,7 +29,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "btnMainCharts4", 
-  "left": 111, 
+  "left": 29, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": 315, 
-  "value": "Button", 
-  "width": "auto"
+  "top": 311, 
+  "value": "Points Scored by Team", 
+  "width": 263
 }

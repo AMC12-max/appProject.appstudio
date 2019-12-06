@@ -10,6 +10,7 @@ GoogleMaps.onshow=function(){
   hmbPages2.addItem("View Your Recent Games")
   hmbPages2.addItem("Message Board")
   hmbPages2.addItem("View official 2K Announcements")
+  hmbPages2.addItem("Review Video")
 
 
 
@@ -40,6 +41,9 @@ hmbPages2.onclick=function(s){
           break
       case "View official 2K Announcements":
           ChangeForm(rssFeed)
+          break
+      case "Review Video":
+          ChangeForm(reviewVideo)
           break
      }
 }

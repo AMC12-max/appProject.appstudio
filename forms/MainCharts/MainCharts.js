@@ -1,4 +1,4 @@
-MainPages.onshow=function(){
+MainCharts.onshow=function(){
 
 
   hmbPages12.clear()
@@ -9,6 +9,7 @@ MainPages.onshow=function(){
   hmbPages12.addItem("View Your Recent Games")
   hmbPages12.addItem("Message Board")
   hmbPages12.addItem("View official 2K Announcements")
+  hmbPages12.addItem("Review Video")
 
 }
 
@@ -39,6 +40,9 @@ hmbPages12.onclick=function(s){
           break
       case "View official 2K Announcements":
           ChangeForm(rssFeed)
+          break
+      case "Review Video":
+          ChangeForm(reviewVideo)
           break
      }
 

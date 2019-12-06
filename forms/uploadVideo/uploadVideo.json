@@ -1,0 +1,142 @@
+{
+  "!type": "Form", 
+  "HTML": null, 
+  "action": "", 
+  "attributes": "", 
+  "background": "grey", 
+  "backgroundimage": "", 
+  "borderColor": "", 
+  "borderStyle": "", 
+  "borderWidth": "", 
+  "cached_js": null, 
+  "cached_js_script_hash": null, 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "uploadVideo", 
+        "Elements", 
+        "Image1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "uploadVideo", 
+        "Elements", 
+        "lblReceipt.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "uploadVideo", 
+        "Elements", 
+        "lblPicMsg.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "uploadVideo", 
+        "Elements", 
+        "PictureBox1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "uploadVideo", 
+        "Elements", 
+        "txtGetPicture.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "uploadVideo", 
+        "Elements", 
+        "btnSubmitImage.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "uploadVideo", 
+        "Elements", 
+        "btnSubmitVideo.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "uploadVideo", 
+        "Elements", 
+        "Header13.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "uploadVideo", 
+        "Elements", 
+        "hbg123.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "uploadVideo", 
+        "Elements", 
+        "inptPhoneVideo.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "uploadVideo", 
+        "Elements", 
+        "Label7.json"
+      ]
+    }
+  ], 
+  "class": "", 
+  "designHeight": 500, 
+  "designWidth": 330, 
+  "expanded_pmp": null, 
+  "fullScreen": "false", 
+  "height": 500, 
+  "id": "uploadVideo", 
+  "language": "JavaScript", 
+  "left": 0, 
+  "locked": false, 
+  "method": "", 
+  "modal": "false", 
+  "onhide": "", 
+  "onkeypress": "", 
+  "onresize": "", 
+  "onshow": "uploadVideo.onshow()", 
+  "onsubmit": "", 
+  "openMode": "none", 
+  "parentForm": "", 
+  "position": "absolute", 
+  "script": null, 
+  "scroll_options": "mouseWheel:true,  bounce:true, zoom:false", 
+  "scrolling": "false", 
+  "setFocusID": "", 
+  "style": "1", 
+  "theme": "", 
+  "top": 0, 
+  "width": 330
+}

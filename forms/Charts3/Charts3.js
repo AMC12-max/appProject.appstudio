@@ -1,4 +1,4 @@
-
+//Couldn't get this to run quite properly, but here is what I had
 
 var assistsAndPoints,lineS;
 
